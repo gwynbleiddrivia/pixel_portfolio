@@ -8,6 +8,11 @@ import {
 } from "react-router-dom";
 import Main from './layout/Main.jsx'
 import Home from './pages/Home.jsx'
+import MyTechStack from './pages/MyTechStack.jsx'
+import Projects from './pages/Projects.jsx'
+import Publications from './pages/Publications.jsx'
+import ProblemSolving from './pages/ProblemSolving.jsx'
+import Contact from './pages/Contact.jsx'
 
 
 const router = createBrowserRouter([
@@ -18,7 +23,27 @@ const router = createBrowserRouter([
 	{
 		path:"/",
 		element: <Home></Home>
-	}
+	},
+	{
+		path:"/mytechstack",
+		element: <MyTechStack></MyTechStack>
+	},
+	{
+		path:"/projects",
+		element: <Projects></Projects>
+	},
+	{
+		path:"/publications",
+		element: <Publications></Publications>
+	},
+	{
+		path:"/problemsolving",
+		element: <ProblemSolving></ProblemSolving>
+	},
+	{
+		path:"/contact",
+		element: <Contact></Contact>
+	},
     ]
   },
 ]);
