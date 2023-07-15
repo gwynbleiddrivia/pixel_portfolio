@@ -16,7 +16,29 @@ body{
 }
 
 
-/* In your CSS or SCSS file */
 .shadow-pixel {
   box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5), 0 0 0 4px rgba(0, 0, 0, 0.5);
+}
+
+
+
+.effect-before{
+background: linear-gradient(145deg, #fff0c9, #dacaa9);
+box-shadow:  5px 5px 10px #d3c3a4,
+             -5px -5px 10px #fffdd4;
+}
+.effect-after{
+background: linear-gradient(145deg, #dacaa9, #fff0c9);
+box-shadow:  5px 5px 10px #d3c3a4,
+             -5px -5px 10px #fffdd4;
+}
+.effect-logo{
+background: #f2e0bc;
+box-shadow:  5px 5px 10px #d3c3a4,
+             -5px -5px 10px #fffdd4;
+}
+.effect-emboss{
+background: #f2e0bc;
+box-shadow: inset 5px 5px 10px #d3c3a4,
+            inset -5px -5px 10px #fffdd4;
 }
