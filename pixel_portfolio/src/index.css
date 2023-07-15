@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.tektur-font{
+	font-family: 'Tektur', cursive;
+}
+
+body{   
+	font-family: 'Montserrat', sans-serif;
+	background-color: #d0ebff;
+	background-color: #d3d3d3;
+	background-color: #f2ead3;
+	background-color: #f3e9d0;
+	background-color: #f2ead2;
+	background-color: #f3e8d6;
+}
+
+
+/* In your CSS or SCSS file */
+.shadow-pixel {
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.5), 0 0 0 4px rgba(0, 0, 0, 0.5);
+}
